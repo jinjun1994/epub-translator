@@ -1,0 +1,8 @@
+.img_container {
+    text-align: center;
+}
+
+img {
+    max-width: 99%;
+    height: auto;
+}

@@ -1,0 +1,1212 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta content="0" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Alasdair Nairn - Engines That Move Markets</text>
+  </docTitle>
+<navMap>
+  <navPoint class="chapter" id="num_1" playOrder="1">
+    <navLabel>
+      <text>Engines That Move Markets 2nd Edition</text>
+    </navLabel>
+    <content src="text/ch0_split_0.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_2" playOrder="2">
+    <navLabel>
+      <text>Contents</text>
+    </navLabel>
+    <content src="text/ch1.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_3" playOrder="3">
+    <navLabel>
+      <text>Acknowledgements</text>
+    </navLabel>
+    <content src="text/ch2.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_4" playOrder="4">
+    <navLabel>
+      <text>Foreword to the First Edition by Sir John Templeton</text>
+    </navLabel>
+    <content src="text/ch3.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_5" playOrder="5">
+    <navLabel>
+      <text>introduction</text>
+    </navLabel>
+    <content src="text/ch4.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_6" playOrder="6">
+    <navLabel>
+      <text>Making Sense of Technology Bubbles</text>
+    </navLabel>
+    <content src="text/ch5.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_7" playOrder="7">
+    <navLabel>
+      <text>Purpose of the research</text>
+    </navLabel>
+    <content src="text/ch6.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_8" playOrder="8">
+    <navLabel>
+      <text>Questions raised</text>
+    </navLabel>
+    <content src="text/ch7.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_9" playOrder="9">
+    <navLabel>
+      <text>The scope of the research</text>
+    </navLabel>
+    <content src="text/ch8.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_10" playOrder="10">
+    <navLabel>
+      <text>New and updated material</text>
+    </navLabel>
+    <content src="text/ch9.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_11" playOrder="11">
+    <navLabel>
+      <text>Timeless lessons</text>
+    </navLabel>
+    <content src="text/ch10.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_12" playOrder="12">
+    <navLabel>
+      <text>chapter 1</text>
+    </navLabel>
+    <content src="text/ch11.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_13" playOrder="13">
+    <navLabel>
+      <text>Making Tracks</text>
+    </navLabel>
+    <content src="text/ch12.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_14" playOrder="14">
+    <navLabel>
+      <text>The Industrial Revolution, canals and railways</text>
+    </navLabel>
+    <content src="text/ch13.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_15" playOrder="15">
+    <navLabel>
+      <text>Introduction</text>
+    </navLabel>
+    <content src="text/ch14.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_16" playOrder="16">
+    <navLabel>
+      <text>Funding the Industrial Revolution</text>
+    </navLabel>
+    <content src="text/ch15.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_17" playOrder="17">
+    <navLabel>
+      <text>The heyday of canals</text>
+    </navLabel>
+    <content src="text/ch16.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_18" playOrder="18">
+    <navLabel>
+      <text>The new production technology is adapted for transport</text>
+    </navLabel>
+    <content src="text/ch17.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_19" playOrder="19">
+    <navLabel>
+      <text>Responding to the threat</text>
+    </navLabel>
+    <content src="text/ch18.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_20" playOrder="20">
+    <navLabel>
+      <text>Success not guaranteed</text>
+    </navLabel>
+    <content src="text/ch19.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_21" playOrder="21">
+    <navLabel>
+      <text>Optimism and gearing</text>
+    </navLabel>
+    <content src="text/ch20.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_22" playOrder="22">
+    <navLabel>
+      <text>Heroes and villains</text>
+    </navLabel>
+    <content src="text/ch21.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_23" playOrder="23">
+    <navLabel>
+      <text>How the boom ended</text>
+    </navLabel>
+    <content src="text/ch22_split_0.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_24" playOrder="24">
+    <navLabel>
+      <text>Conclusions</text>
+    </navLabel>
+    <content src="text/ch23.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_25" playOrder="25">
+    <navLabel>
+      <text>chapter 2</text>
+    </navLabel>
+    <content src="text/ch24.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_26" playOrder="26">
+    <navLabel>
+      <text>Breaking Out</text>
+    </navLabel>
+    <content src="text/ch25.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_27" playOrder="27">
+    <navLabel>
+      <text>The story of the US railroads</text>
+    </navLabel>
+    <content src="text/ch26.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_28" playOrder="28">
+    <navLabel>
+      <text>Beginnings: boats, barges and horses</text>
+    </navLabel>
+    <content src="text/ch27.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_29" playOrder="29">
+    <navLabel>
+      <text>Vanderbilt and America’s steamboat wars</text>
+    </navLabel>
+    <content src="text/ch28.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_30" playOrder="30">
+    <navLabel>
+      <text>Towards a rail network</text>
+    </navLabel>
+    <content src="text/ch29.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_31" playOrder="31">
+    <navLabel>
+      <text>A game of monopoly: the fight for Erie</text>
+    </navLabel>
+    <content src="text/ch30.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_32" playOrder="32">
+    <navLabel>
+      <text>The rule of law – or corruption?</text>
+    </navLabel>
+    <content src="text/ch31.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_33" playOrder="33">
+    <navLabel>
+      <text>Competition and consolidation</text>
+    </navLabel>
+    <content src="text/ch32.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_34" playOrder="34">
+    <navLabel>
+      <text>The battle for control of the West</text>
+    </navLabel>
+    <content src="text/ch33.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_35" playOrder="35">
+    <navLabel>
+      <text>The railroad wars intensify</text>
+    </navLabel>
+    <content src="text/ch34.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_36" playOrder="36">
+    <navLabel>
+      <text>Competition of the transcontinental route</text>
+    </navLabel>
+    <content src="text/ch35.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_37" playOrder="37">
+    <navLabel>
+      <text>Conclusions</text>
+    </navLabel>
+    <content src="text/ch36.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_38" playOrder="38">
+    <navLabel>
+      <text>chapter 3</text>
+    </navLabel>
+    <content src="text/ch37.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_39" playOrder="39">
+    <navLabel>
+      <text>Investing at the Speed of Sound</text>
+    </navLabel>
+    <content src="text/ch38.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_40" playOrder="40">
+    <navLabel>
+      <text>How the telephone changed everything</text>
+    </navLabel>
+    <content src="text/ch39.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_41" playOrder="41">
+    <navLabel>
+      <text>Origins of the telegraph</text>
+    </navLabel>
+    <content src="text/ch40.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_42" playOrder="42">
+    <navLabel>
+      <text>The British experience</text>
+    </navLabel>
+    <content src="text/ch41.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_43" playOrder="43">
+    <navLabel>
+      <text>Western Union and the US market</text>
+    </navLabel>
+    <content src="text/ch42.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_44" playOrder="44">
+    <navLabel>
+      <text>Competitors emerge</text>
+    </navLabel>
+    <content src="text/ch43.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_45" playOrder="45">
+    <navLabel>
+      <text>The emergence of the telephone</text>
+    </navLabel>
+    <content src="text/ch44.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_46" playOrder="46">
+    <navLabel>
+      <text>From prototype to commercial development</text>
+    </navLabel>
+    <content src="text/ch45.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_47" playOrder="47">
+    <navLabel>
+      <text>Western Union changes tack</text>
+    </navLabel>
+    <content src="text/ch46.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_48" playOrder="48">
+    <navLabel>
+      <text>The importance of patents</text>
+    </navLabel>
+    <content src="text/ch47.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_49" playOrder="49">
+    <navLabel>
+      <text>Competition arrives</text>
+    </navLabel>
+    <content src="text/ch48_split_0.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_50" playOrder="50">
+    <navLabel>
+      <text>The market matures</text>
+    </navLabel>
+    <content src="text/ch49.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_51" playOrder="51">
+    <navLabel>
+      <text>Enter Theodore Vail</text>
+    </navLabel>
+    <content src="text/ch50.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_52" playOrder="52">
+    <navLabel>
+      <text>Conclusions</text>
+    </navLabel>
+    <content src="text/ch51.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_53" playOrder="53">
+    <navLabel>
+      <text>chapter 4</text>
+    </navLabel>
+    <content src="text/ch52.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_54" playOrder="54">
+    <navLabel>
+      <text>Lighting Up</text>
+    </navLabel>
+    <content src="text/ch53.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_55" playOrder="55">
+    <navLabel>
+      <text>Edison and the electric lamp</text>
+    </navLabel>
+    <content src="text/ch54.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_56" playOrder="56">
+    <navLabel>
+      <text>The search for illumination</text>
+    </navLabel>
+    <content src="text/ch55.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_57" playOrder="57">
+    <navLabel>
+      <text>Gas: a comfortable monopoly</text>
+    </navLabel>
+    <content src="text/ch56.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_58" playOrder="58">
+    <navLabel>
+      <text>The development of electric light</text>
+    </navLabel>
+    <content src="text/ch57.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_59" playOrder="59">
+    <navLabel>
+      <text>The Brush stock market bubble</text>
+    </navLabel>
+    <content src="text/ch58.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_60" playOrder="60">
+    <navLabel>
+      <text>The roots of arc lighting’s failure</text>
+    </navLabel>
+    <content src="text/ch59.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_61" playOrder="61">
+    <navLabel>
+      <text>Next step: the incandescent lamp</text>
+    </navLabel>
+    <content src="text/ch60.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_62" playOrder="62">
+    <navLabel>
+      <text>Thomas Edison enters the field</text>
+    </navLabel>
+    <content src="text/ch61.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_63" playOrder="63">
+    <navLabel>
+      <text>Maintaining an interest in both camps: diversifying risk</text>
+    </navLabel>
+    <content src="text/ch62.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_64" playOrder="64">
+    <navLabel>
+      <text>Propaganda and confidence</text>
+    </navLabel>
+    <content src="text/ch63.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_65" playOrder="65">
+    <navLabel>
+      <text>On-off enthusiasm in the markets</text>
+    </navLabel>
+    <content src="text/ch64.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_66" playOrder="66">
+    <navLabel>
+      <text>Edison’s corporate ventures</text>
+    </navLabel>
+    <content src="text/ch65.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_67" playOrder="67">
+    <navLabel>
+      <text>Westinghouse and the AC/DC wars</text>
+    </navLabel>
+    <content src="text/ch66.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_68" playOrder="68">
+    <navLabel>
+      <text>The industry consolidates</text>
+    </navLabel>
+    <content src="text/ch67.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_69" playOrder="69">
+    <navLabel>
+      <text>Conclusions</text>
+    </navLabel>
+    <content src="text/ch68.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_70" playOrder="70">
+    <navLabel>
+      <text>chapter 5</text>
+    </navLabel>
+    <content src="text/ch69.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_71" playOrder="71">
+    <navLabel>
+      <text>Digging Deep</text>
+    </navLabel>
+    <content src="text/ch70.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_72" playOrder="72">
+    <navLabel>
+      <text>The search for oil</text>
+    </navLabel>
+    <content src="text/ch71.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_73" playOrder="73">
+    <navLabel>
+      <text>Edwin Drake’s discovery</text>
+    </navLabel>
+    <content src="text/ch72.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_74" playOrder="74">
+    <navLabel>
+      <text>The floodgates open</text>
+    </navLabel>
+    <content src="text/ch73.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_75" playOrder="75">
+    <navLabel>
+      <text>Rockefeller takes a grip</text>
+    </navLabel>
+    <content src="text/ch74.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_76" playOrder="76">
+    <navLabel>
+      <text>From participation to domination</text>
+    </navLabel>
+    <content src="text/ch75.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_77" playOrder="77">
+    <navLabel>
+      <text>The world beyond Pennsylvania</text>
+    </navLabel>
+    <content src="text/ch76.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_78" playOrder="78">
+    <navLabel>
+      <text>New industry combinations</text>
+    </navLabel>
+    <content src="text/ch77.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_79" playOrder="79">
+    <navLabel>
+      <text>Public opinion turns against Big Oil</text>
+    </navLabel>
+    <content src="text/ch78_split_0.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_80" playOrder="80">
+    <navLabel>
+      <text>Trustbusting – the dissolution of Standard Oil</text>
+    </navLabel>
+    <content src="text/ch79.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_81" playOrder="81">
+    <navLabel>
+      <text>Conclusions</text>
+    </navLabel>
+    <content src="text/ch80.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_82" playOrder="82">
+    <navLabel>
+      <text>chapter 6</text>
+    </navLabel>
+    <content src="text/ch81.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_83" playOrder="83">
+    <navLabel>
+      <text>Driving Forward</text>
+    </navLabel>
+    <content src="text/ch82.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_84" playOrder="84">
+    <navLabel>
+      <text>The history of the automobile</text>
+    </navLabel>
+    <content src="text/ch83.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_85" playOrder="85">
+    <navLabel>
+      <text>The search for a horseless carriage</text>
+    </navLabel>
+    <content src="text/ch84.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_86" playOrder="86">
+    <navLabel>
+      <text>Europe’s first pioneers</text>
+    </navLabel>
+    <content src="text/ch85.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_87" playOrder="87">
+    <navLabel>
+      <text>The race to attract attention</text>
+    </navLabel>
+    <content src="text/ch86.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_88" playOrder="88">
+    <navLabel>
+      <text>America takes a turn of the wheel</text>
+    </navLabel>
+    <content src="text/ch87.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_89" playOrder="89">
+    <navLabel>
+      <text>Enter the Duryea brothers</text>
+    </navLabel>
+    <content src="text/ch88.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_90" playOrder="90">
+    <navLabel>
+      <text>The battle for technology leadership</text>
+    </navLabel>
+    <content src="text/ch89.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_91" playOrder="91">
+    <navLabel>
+      <text>The Lead Cab Trust</text>
+    </navLabel>
+    <content src="text/ch90.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_92" playOrder="92">
+    <navLabel>
+      <text>The market begins to form</text>
+    </navLabel>
+    <content src="text/ch91.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_93" playOrder="93">
+    <navLabel>
+      <text>The impact of Henry Ford</text>
+    </navLabel>
+    <content src="text/ch92.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_94" playOrder="94">
+    <navLabel>
+      <text>Early attempts to consolidate</text>
+    </navLabel>
+    <content src="text/ch93_split_0.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_95" playOrder="95">
+    <navLabel>
+      <text>Durant joins the fray</text>
+    </navLabel>
+    <content src="text/ch94.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_96" playOrder="96">
+    <navLabel>
+      <text>The Studebaker story</text>
+    </navLabel>
+    <content src="text/ch95.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_97" playOrder="97">
+    <navLabel>
+      <text>The evolution of the automobile industry in America</text>
+    </navLabel>
+    <content src="text/ch96.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_98" playOrder="98">
+    <navLabel>
+      <text>The industry in Europe</text>
+    </navLabel>
+    <content src="text/ch97.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_99" playOrder="99">
+    <navLabel>
+      <text>Conclusions</text>
+    </navLabel>
+    <content src="text/ch98.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_100" playOrder="100">
+    <navLabel>
+      <text>chapter 7</text>
+    </navLabel>
+    <content src="text/ch99.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_101" playOrder="101">
+    <navLabel>
+      <text>Making Waves</text>
+    </navLabel>
+    <content src="text/ch100.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_102" playOrder="102">
+    <navLabel>
+      <text>The story of wireless, from Marconi to Baird</text>
+    </navLabel>
+    <content src="text/ch101.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_103" playOrder="103">
+    <navLabel>
+      <text>Marconi and the origins of wireless</text>
+    </navLabel>
+    <content src="text/ch102.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_104" playOrder="104">
+    <navLabel>
+      <text>From wire to wireless – the technology in context</text>
+    </navLabel>
+    <content src="text/ch103.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_105" playOrder="105">
+    <navLabel>
+      <text>Marconi courts the press</text>
+    </navLabel>
+    <content src="text/ch104.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_106" playOrder="106">
+    <navLabel>
+      <text>Scientific scepticism</text>
+    </navLabel>
+    <content src="text/ch105.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_107" playOrder="107">
+    <navLabel>
+      <text>From demonstration to practicality</text>
+    </navLabel>
+    <content src="text/ch106.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_108" playOrder="108">
+    <navLabel>
+      <text>The market starts to develop</text>
+    </navLabel>
+    <content src="text/ch107.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_109" playOrder="109">
+    <navLabel>
+      <text>Stock funding, De Forest style</text>
+    </navLabel>
+    <content src="text/ch108.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_110" playOrder="110">
+    <navLabel>
+      <text>The Marconi companies</text>
+    </navLabel>
+    <content src="text/ch109_split_0.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_111" playOrder="111">
+    <navLabel>
+      <text>Government steps in</text>
+    </navLabel>
+    <content src="text/ch110.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_112" playOrder="112">
+    <navLabel>
+      <text>Commercial spin-offs from the radio</text>
+    </navLabel>
+    <content src="text/ch111.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_113" playOrder="113">
+    <navLabel>
+      <text>RCA – the national champion</text>
+    </navLabel>
+    <content src="text/ch112.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_114" playOrder="114">
+    <navLabel>
+      <text>The birth of broadcasting</text>
+    </navLabel>
+    <content src="text/ch113.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_115" playOrder="115">
+    <navLabel>
+      <text>Development of the broadcasting industry</text>
+    </navLabel>
+    <content src="text/ch114.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_116" playOrder="116">
+    <navLabel>
+      <text>Television: an idea ahead of its time</text>
+    </navLabel>
+    <content src="text/ch115.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_117" playOrder="117">
+    <navLabel>
+      <text>Conclusions</text>
+    </navLabel>
+    <content src="text/ch116.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_118" playOrder="118">
+    <navLabel>
+      <text>chapter 8</text>
+    </navLabel>
+    <content src="text/ch117.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_119" playOrder="119">
+    <navLabel>
+      <text>Making it Count</text>
+    </navLabel>
+    <content src="text/ch118.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_120" playOrder="120">
+    <navLabel>
+      <text>From adding machines to mainframes</text>
+    </navLabel>
+    <content src="text/ch119.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_121" playOrder="121">
+    <navLabel>
+      <text>The business of counting</text>
+    </navLabel>
+    <content src="text/ch120.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_122" playOrder="122">
+    <navLabel>
+      <text>Babbage and his engines</text>
+    </navLabel>
+    <content src="text/ch121.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_123" playOrder="123">
+    <navLabel>
+      <text>The cash register rings up</text>
+    </navLabel>
+    <content src="text/ch122.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_124" playOrder="124">
+    <navLabel>
+      <text>Big business in counting heads</text>
+    </navLabel>
+    <content src="text/ch123.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_125" playOrder="125">
+    <navLabel>
+      <text>The race to find other uses</text>
+    </navLabel>
+    <content src="text/ch124.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_126" playOrder="126">
+    <navLabel>
+      <text>The next wave of innovation</text>
+    </navLabel>
+    <content src="text/ch125.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_127" playOrder="127">
+    <navLabel>
+      <text>The legacy of Bletchley Park</text>
+    </navLabel>
+    <content src="text/ch126.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_128" playOrder="128">
+    <navLabel>
+      <text>Next stop the vacuum tube</text>
+    </navLabel>
+    <content src="text/ch127.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_129" playOrder="129">
+    <navLabel>
+      <text>ENIAC and EDVAC</text>
+    </navLabel>
+    <content src="text/ch128_split_0.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_130" playOrder="130">
+    <navLabel>
+      <text>Up against the funding wall</text>
+    </navLabel>
+    <content src="text/ch129.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_131" playOrder="131">
+    <navLabel>
+      <text>Success for the UNIVAC</text>
+    </navLabel>
+    <content src="text/ch130.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_132" playOrder="132">
+    <navLabel>
+      <text>The arrival of the transistor</text>
+    </navLabel>
+    <content src="text/ch131.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_133" playOrder="133">
+    <navLabel>
+      <text>Computer wars</text>
+    </navLabel>
+    <content src="text/ch132_split_0.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_134" playOrder="134">
+    <navLabel>
+      <text>Timesharing: an idea before its time</text>
+    </navLabel>
+    <content src="text/ch133.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_135" playOrder="135">
+    <navLabel>
+      <text>From mainframes to minicomputers</text>
+    </navLabel>
+    <content src="text/ch134.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_136" playOrder="136">
+    <navLabel>
+      <text>Conclusions</text>
+    </navLabel>
+    <content src="text/ch135.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_137" playOrder="137">
+    <navLabel>
+      <text>chapter 9</text>
+    </navLabel>
+    <content src="text/ch136.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_138" playOrder="138">
+    <navLabel>
+      <text>Processing Power for All</text>
+    </navLabel>
+    <content src="text/ch137.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_139" playOrder="139">
+    <navLabel>
+      <text>The rise of the PC</text>
+    </navLabel>
+    <content src="text/ch138.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_140" playOrder="140">
+    <navLabel>
+      <text>The roots of the PC</text>
+    </navLabel>
+    <content src="text/ch139.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_141" playOrder="141">
+    <navLabel>
+      <text>The birth of Intel</text>
+    </navLabel>
+    <content src="text/ch140.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_142" playOrder="142">
+    <navLabel>
+      <text>The calculator – accidental mass market product</text>
+    </navLabel>
+    <content src="text/ch141.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_143" playOrder="143">
+    <navLabel>
+      <text>Economic imperatives</text>
+    </navLabel>
+    <content src="text/ch142.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_144" playOrder="144">
+    <navLabel>
+      <text>From calculators to the PC</text>
+    </navLabel>
+    <content src="text/ch143.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_145" playOrder="145">
+    <navLabel>
+      <text>Creating an industry</text>
+    </navLabel>
+    <content src="text/ch144.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_146" playOrder="146">
+    <navLabel>
+      <text>From myth to reality – two new products</text>
+    </navLabel>
+    <content src="text/ch145.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_147" playOrder="147">
+    <navLabel>
+      <text>Apple and the search for a user-friendly machine</text>
+    </navLabel>
+    <content src="text/ch146_split_0.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_148" playOrder="148">
+    <navLabel>
+      <text>IBM lumbers in</text>
+    </navLabel>
+    <content src="text/ch147.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_149" playOrder="149">
+    <navLabel>
+      <text>Send in the clones</text>
+    </navLabel>
+    <content src="text/ch148.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_150" playOrder="150">
+    <navLabel>
+      <text>Microsoft’s vision</text>
+    </navLabel>
+    <content src="text/ch149_split_0.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_151" playOrder="151">
+    <navLabel>
+      <text>The PC business in perspective</text>
+    </navLabel>
+    <content src="text/ch150.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_152" playOrder="152">
+    <navLabel>
+      <text>chapter 10</text>
+    </navLabel>
+    <content src="text/ch151.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_153" playOrder="153">
+    <navLabel>
+      <text>The Internet</text>
+    </navLabel>
+    <content src="text/ch152.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_154" playOrder="154">
+    <navLabel>
+      <text>How computing timeshare became a global phenomenon</text>
+    </navLabel>
+    <content src="text/ch153.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_155" playOrder="155">
+    <navLabel>
+      <text>Part I: The lure of computer networking</text>
+    </navLabel>
+    <content src="text/ch154.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_156" playOrder="156">
+    <navLabel>
+      <text>Something stirs in academia</text>
+    </navLabel>
+    <content src="text/ch155.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_157" playOrder="157">
+    <navLabel>
+      <text>Timeshare computing: means to an end</text>
+    </navLabel>
+    <content src="text/ch156.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_158" playOrder="158">
+    <navLabel>
+      <text>Nurtured by the military</text>
+    </navLabel>
+    <content src="text/ch157.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_159" playOrder="159">
+    <navLabel>
+      <text>Marketing the dream</text>
+    </navLabel>
+    <content src="text/ch158_split_0.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_160" playOrder="160">
+    <navLabel>
+      <text>From academia to commercialisation</text>
+    </navLabel>
+    <content src="text/ch159.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_161" playOrder="161">
+    <navLabel>
+      <text>Enter Cisco Systems</text>
+    </navLabel>
+    <content src="text/ch160.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_162" playOrder="162">
+    <navLabel>
+      <text>Towards an electronic post office</text>
+    </navLabel>
+    <content src="text/ch161.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_163" playOrder="163">
+    <navLabel>
+      <text>The challenge of access</text>
+    </navLabel>
+    <content src="text/ch162.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_164" playOrder="164">
+    <navLabel>
+      <text>Part 2: Commericalising the Internet</text>
+    </navLabel>
+    <content src="text/ch163.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_165" playOrder="165">
+    <navLabel>
+      <text>Privatisation was the key</text>
+    </navLabel>
+    <content src="text/ch164.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_166" playOrder="166">
+    <navLabel>
+      <text>The rise and fall of Netscape</text>
+    </navLabel>
+    <content src="text/ch165.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_167" playOrder="167">
+    <navLabel>
+      <text>Getting access: America Online</text>
+    </navLabel>
+    <content src="text/ch166.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_168" playOrder="168">
+    <navLabel>
+      <text>Browser wars</text>
+    </navLabel>
+    <content src="text/ch167.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_169" playOrder="169">
+    <navLabel>
+      <text>A new business model</text>
+    </navLabel>
+    <content src="text/ch168.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_170" playOrder="170">
+    <navLabel>
+      <text>The Yahoo story</text>
+    </navLabel>
+    <content src="text/ch169.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_171" playOrder="171">
+    <navLabel>
+      <text>Google – so much for first-mover advantage!</text>
+    </navLabel>
+    <content src="text/ch170.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_172" playOrder="172">
+    <navLabel>
+      <text>The market developed differently</text>
+    </navLabel>
+    <content src="text/ch171.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_173" playOrder="173">
+    <navLabel>
+      <text>A pioneering IPO</text>
+    </navLabel>
+    <content src="text/ch172.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_174" playOrder="174">
+    <navLabel>
+      <text>Amazon: buying things</text>
+    </navLabel>
+    <content src="text/ch173.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_175" playOrder="175">
+    <navLabel>
+      <text>Heading to market</text>
+    </navLabel>
+    <content src="text/ch174.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_176" playOrder="176">
+    <navLabel>
+      <text>Facebook: the rise of social media</text>
+    </navLabel>
+    <content src="text/ch175.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_177" playOrder="177">
+    <navLabel>
+      <text>Part 3: The Internet bubble in perspective</text>
+    </navLabel>
+    <content src="text/ch176.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_178" playOrder="178">
+    <navLabel>
+      <text>A new Industrial Revolution…</text>
+    </navLabel>
+    <content src="text/ch177.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_179" playOrder="179">
+    <navLabel>
+      <text>…and a monster stock market bubble</text>
+    </navLabel>
+    <content src="text/ch178.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_180" playOrder="180">
+    <navLabel>
+      <text>Inflating the bubble</text>
+    </navLabel>
+    <content src="text/ch179.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_181" playOrder="181">
+    <navLabel>
+      <text>Valuation issues</text>
+    </navLabel>
+    <content src="text/ch180.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_182" playOrder="182">
+    <navLabel>
+      <text>Web 1.0 (1997–2003): analysing the Internet boom</text>
+    </navLabel>
+    <content src="text/ch181.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_183" playOrder="183">
+    <navLabel>
+      <text>Out of the wreckage</text>
+    </navLabel>
+    <content src="text/ch182.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_184" playOrder="184">
+    <navLabel>
+      <text>Web 2.0 (2008+): a new bubble?</text>
+    </navLabel>
+    <content src="text/ch183.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_185" playOrder="185">
+    <navLabel>
+      <text>Part 4: Looking to the future</text>
+    </navLabel>
+    <content src="text/ch184.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_186" playOrder="186">
+    <navLabel>
+      <text>Towards a brave new world</text>
+    </navLabel>
+    <content src="text/ch185.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_187" playOrder="187">
+    <navLabel>
+      <text>chapter 11</text>
+    </navLabel>
+    <content src="text/ch186.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_188" playOrder="188">
+    <navLabel>
+      <text>The Anatomy of Technology Investing</text>
+    </navLabel>
+    <content src="text/ch187.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_189" playOrder="189">
+    <navLabel>
+      <text>The persistence of change</text>
+    </navLabel>
+    <content src="text/ch188.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_190" playOrder="190">
+    <navLabel>
+      <text>Clear in retrospect, but rarely in advance</text>
+    </navLabel>
+    <content src="text/ch189.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_191" playOrder="191">
+    <navLabel>
+      <text>The technology cycle</text>
+    </navLabel>
+    <content src="text/ch190.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_192" playOrder="192">
+    <navLabel>
+      <text>What works and what does not</text>
+    </navLabel>
+    <content src="text/ch191.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_193" playOrder="193">
+    <navLabel>
+      <text>The economic impact</text>
+    </navLabel>
+    <content src="text/ch192.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_194" playOrder="194">
+    <navLabel>
+      <text>The Internet and the technology cycle</text>
+    </navLabel>
+    <content src="text/ch193.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_195" playOrder="195">
+    <navLabel>
+      <text>The market impact of the Internet bubble</text>
+    </navLabel>
+    <content src="text/ch194.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_196" playOrder="196">
+    <navLabel>
+      <text>The misallocation of capital to telecoms</text>
+    </navLabel>
+    <content src="text/ch195.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_197" playOrder="197">
+    <navLabel>
+      <text>Where we are today</text>
+    </navLabel>
+    <content src="text/ch196.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_198" playOrder="198">
+    <navLabel>
+      <text>The broader impact and the future</text>
+    </navLabel>
+    <content src="text/ch197.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_199" playOrder="199">
+    <navLabel>
+      <text>Timeless lessons about technology investing</text>
+    </navLabel>
+    <content src="text/ch198.html"/>
+  </navPoint>
+  <navPoint class="chapter" id="num_200" playOrder="200">
+    <navLabel>
+      <text>Publishing details</text>
+    </navLabel>
+    <content src="text/ch199.html"/>
+  </navPoint>
+</navMap></ncx>

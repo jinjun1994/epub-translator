@@ -1,0 +1,28 @@
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" xml:lang="en" version="2005-1">
+    <head>
+    <meta name="dtb:uid" content="87f0d140-fdb7-0137-fb7f-189e6339a0ee"/>
+    <meta name="dtb:depth" content="1"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+    </head>
+    <docTitle><text>小习惯</text></docTitle>
+    <docAuthor><text>BJ Fogg，博士</text></docAuthor>
+    <navMap><navPoint class="titlepage" id="level1-titlepage" playOrder="1"><navLabel><text>标题页</text></navLabel><content src="titlepage.xhtml"/></navPoint>
+<navPoint class="toc" id="level1-toc" playOrder="2"><navLabel><text>目录</text></navLabel><content src="contents.xhtml"/></navPoint>
+<navPoint class="front" id="level1-front3" playOrder="3"><navLabel><text>版权所有</text></navLabel><content src="front01.xhtml"/></navPoint>
+<navPoint class="front" id="level1-front4" playOrder="4"><navLabel><text>奉献精神</text></navLabel><content src="front02.xhtml"/></navPoint>
+<navPoint class="front" id="level1-front5" playOrder="5"><navLabel><text>引言</text></navLabel><content src="front03.xhtml"/></navPoint>
+<navPoint class="level1-c01" id="c01" playOrder="6"><navLabel><text>行为的要素</text></navLabel><content src="c01.xhtml"/></navPoint>
+<navPoint class="level1-c02" id="c02" playOrder="7"><navLabel><text>动机-专注于匹配</text></navLabel><content src="c02.xhtml"/></navPoint>
+<navPoint class="level1-c03" id="c03" playOrder="8"><navLabel><text>能力-轻而易举地做到这一点</text></navLabel><content src="c03.xhtml"/></navPoint>
+<navPoint class="level1-c04" id="c04" playOrder="9"><navLabel><text>提示-之后的力量</text></navLabel><content src="c04.xhtml"/></navPoint>
+<navPoint class="level1-c05" id="c05" playOrder="10"><navLabel><text>情绪造就习惯</text></navLabel><content src="c05.xhtml"/></navPoint>
+<navPoint class="level1-c06" id="c06" playOrder="11"><navLabel><text>让你的习惯从小到大变成变革性的</text></navLabel><content src="c06.xhtml"/></navPoint>
+<navPoint class="level1-c07" id="c07" playOrder="12"><navLabel><text>破除陋习：系统化的解决方案</text></navLabel><content src="c07.xhtml"/></navPoint>
+<navPoint class="level1-c08" id="c08" playOrder="13"><navLabel><text>我们是如何一起改变的</text></navLabel><content src="c08.xhtml"/></navPoint>
+<navPoint class="back" id="level1-back14" playOrder="14"><navLabel><text>改变一切的微小改变</text></navLabel><content src="back01.xhtml"/></navPoint>
+<navPoint class="back" id="level1-back15" playOrder="15"><navLabel><text>确认</text></navLabel><content src="back02.xhtml"/></navPoint>
+<navPoint class="back" id="level1-back16" playOrder="16"><navLabel><text>附录</text></navLabel><content src="back03.xhtml"/></navPoint>
+<navPoint class="back" id="level1-back17" playOrder="17"><navLabel><text>三百个养成小习惯的秘方--生活中的十五种情况和挑战</text></navLabel><content src="back04.xhtml"/></navPoint>
+<navPoint class="back" id="level1-back18" playOrder="18"><navLabel><text>关于作者</text></navLabel><content src="back05.xhtml"/></navPoint>
+<navPoint class="back" id="level1-back19" playOrder="19"><navLabel><text>与HMH连接</text></navLabel><content src="back06.xhtml"/></navPoint></navMap></ncx>
