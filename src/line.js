@@ -2,8 +2,9 @@
 // 职责: 保存翻译状态, 保存翻译后的结果
 
 import { sizeofByte } from "./utils.js";
-import { converter } from "../baidu.js";
-
+import { TranslateByBaiDu } from "../baidu.js";
+const translateByBaiDu = new TranslateByBaiDu(
+);
 export class Lines {
   status = {
     SUCCESS: "success", // 翻译成功
@@ -22,6 +23,7 @@ export class Lines {
     this.results = null; // 翻译后的文字 (比如是中文)
     this.group = [];
     this.setGroup();
+    
   }
   // 功能: 把text 节点分成一个二层数组
   // 输入: 字符数限制, 最大元素数量限制
@@ -48,15 +50,16 @@ export class Lines {
         list = [node];
       }
     }
-    this.group.push(list);
+    if(list.length)this.group.push(list);
   }
  async translate() {
     for (const group of this.group) {
         let allText = group.map(node=>node.textContent).join('\n')
-        const translated = (await converter(allText)).split('\n');
-        console.log(translated);
+        const translated = (await translateByBaiDu.converter(allText))
+        this.results = translated
+        // .trans_result;
         for (const [k,node] of Object.entries(group)) {
-          node.textContent = translated[k]
+          node.textContent = translated.trans_result[k].dst
         }
 
     }
