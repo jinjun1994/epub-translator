@@ -23,6 +23,8 @@ const EPUB_TO_BE_CREATED_URL = normalizeRelativePath(
   "./src/test/test_epub_js.epub"
 );
 
+import {Lines} from "./src/line.js";
+
 function normalizeRelativePath(relativePath) {
   return path.normalize(`${path.resolve()}/${relativePath}`);
 }
@@ -78,155 +80,150 @@ function resolveAfter(number) {
 }
 (async () => {
   try {
-    
+    const file = "中文版.epub";
+    const book = await readEpubSync(file);
+    const epub = fs.readFileSync(file);
+    const zip = await jszip.loadAsync(epub, { base64: false });
+    zip.file("mimetype", "application/epub+zip", {
+      base64: false,
+      compression: "STORE", // no compression
+    });
+    // Mimetype file should only contain the string "application/epub+zip" and should not be compressed.
 
-  const file = "中文版.epub";
-  const book = await readEpubSync(file);
-  const epub = fs.readFileSync(file);
-  const zip = await jszip.loadAsync(epub, { base64: false });
-  zip.file("mimetype", "application/epub+zip", {
-    base64: false,
-    compression: "STORE", // no compression
-  });
-  // Mimetype file should only contain the string "application/epub+zip" and should not be compressed.
+    const { metadata, chapters, flow } = book;
+    //-----------------------------------------------------------------------------
+    //读取目录文件
 
-  const { metadata, chapters, flow } = book;
-  //-----------------------------------------------------------------------------
-  //读取目录文件
-  
-  try {
-  const  ncxFile = zip.filter(function (relativePath, file) {
-      return relativePath.includes(".ncx");
-    })[0];
-    console.log('object');
-  const ncx = await zip.file(ncxFile.name).async("string");
-  // 生成目录文件dom翻译
-  const dom = new JSDOM(ncx, { contentType: "text/xml" });
-  const texts = dom.window.document.querySelectorAll("text");
-  console.log('object104');
-  for (const text of texts) {
-    // break
-    let translated;
     try {
-      await resolveAfter(Math.random() * 100 + 100);
-      translated = await converter(text.textContent);
-      console.log(translated);
-    } catch (error) {
-      console.log(error);
-    }
-
-    text.textContent = translated;
-  }
-
-  const string = dom.serialize();
-  // mkdirp.sync(dirname(f.href))
-  // fs.writeFileSync(f.href,string )
-  zip.file(ncxFile.name, string);
-  } catch (error) {
-    throw new error('no ncx file')
-  }
-
-  try {
-  const  ncxFile = zip.filter(function (relativePath, file) {
-      return relativePath==="OPS/toc.xhtml";
-    })[0];
-    console.log('object');
-  const ncx = await zip.file(ncxFile.name).async("string");
-  // 生成目录文件dom翻译
-  const dom = new JSDOM(ncx, { contentType: "text/xml" });
-  const texts  = textNodesUnder(dom.window.document,dom.window) 
-  for (const text of texts) {
-    
-    if(!text.textContent.trim()) continue //trim去除所有空白，行终止符字符，为‘’ 不翻译
-    let translated;
-    try {
-      await resolveAfter(Math.random() * 100 + 100);
-      translated = await converter(text.textContent);
-      console.log(translated);
-    } catch (error) {
-      console.log(error);
-    }
-
-    text.textContent = translated;
-  }
-
-  const string = dom.serialize();
-  zip.file(ncxFile.name, string);
-  } catch (error) {
-    console.log(error);
-  }
-// /*%/
-
-  //-----------------------------------------------------------------------------
-  for (const f of flow) {
-    break;
-    try {
-      // const xml = (await book.getChapterRawSync(f.id)).replace('\n','');
-      const xml = await book.getChapterRawSync(f.id);
-      // console.log(xml);
-
-      const dom = new JSDOM(xml, { contentType: "text/xml" });
-      //https://github.com/jsdom/jsdom/issues/798#issuecomment-434066640
-1;
-      const nodes = textNodesUnder(dom.window.document,dom.window) 
-      // 有些书文字全部在span ,有些不是，所以直接拿所有text节点。后续优化code pre等标签内容
-            // console.log(nodes);
- 
-      for (const node of nodes) {
-        const textContent = node.textContent
-        if(!textContent.trim()) continue //trim去除所有空白，行终止符字符，为‘’ 不翻译
+      const ncxFile = zip.filter(function (relativePath, file) {
+        return relativePath.includes(".ncx");
+      })[0];
+      console.log("object");
+      const ncx = await zip.file(ncxFile.name).async("string");
+      // 生成目录文件dom翻译
+      const dom = new JSDOM(ncx, { contentType: "text/xml" });
+      const texts = dom.window.document.querySelectorAll("text");
+      const lines = new Lines(texts);
+      await lines.translate()
+      console.log(lines);
+      for (const text of texts) {
+        // break
         let translated;
-
         try {
           await resolveAfter(Math.random() * 100 + 100);
-          translated = await converter(node.textContent);
-          console.log("", translated);
+          translated = await converter(text.textContent);
+          console.log(translated);
         } catch (error) {
-          console.log(error);
-          return;
+          console.log(error);``
         }
 
-        node.textContent = translated;
+        text.textContent = translated;
       }
-
-      // const spans = dom.window.document.querySelectorAll("span");
-
-      // for (const span of spans) {
-      //   // console.log(span.textContent);
-      //   let translated;
-      //   try {
-      //     await resolveAfter(Math.random() * 100 + 100);
-      //     translated = await converter(span.textContent);
-      //     console.log("", translated);
-      //   } catch (error) {
-      //     console.log(error);
-      //     return;
-      //   }
-
-      //   span.textContent = translated;
-      // }
 
       const string = dom.serialize();
       // mkdirp.sync(dirname(f.href))
       // fs.writeFileSync(f.href,string )
-      zip.file(f.href, string);
-      // console.log(string);
+      zip.file(ncxFile.name, string);
     } catch (error) {
       console.log(error);
     }
-  }
 
-  const data = await zip.generateAsync({
-    base64: false,
-    compression: "DEFLATE",
-    type: "nodebuffer",
-  });
-  fs.writeFileSync("中文版1.epub", data, "binary");
+    try {
+      const ncxFile = zip.filter(function (relativePath, file) {
+        return relativePath === "OPS/toc.xhtml";
+      })[0];
+      console.log("object");
+      const ncx = await zip.file(ncxFile.name).async("string");
+      // 生成目录文件dom翻译
+      const dom = new JSDOM(ncx, { contentType: "text/xml" });
+      const texts = textNodesUnder(dom.window.document, dom.window);
+      for (const text of texts) {
+        if (!text.textContent.trim()) continue; //trim去除所有空白，行终止符字符，为‘’ 不翻译
+        let translated;
+        try {
+          await resolveAfter(Math.random() * 100 + 100);
+          translated = await converter(text.textContent);
+          console.log(translated);
+        } catch (error) {
+          console.log(error);
+        }
 
-} catch (error) {
+        text.textContent = translated;
+      }
+
+      const string = dom.serialize();
+      zip.file(ncxFile.name, string);
+    } catch (error) {
+      console.log(error);
+    }
+    // /*%/
+
+    //-----------------------------------------------------------------------------
+    for (const f of flow) {
+      break;
+      try {
+        // const xml = (await book.getChapterRawSync(f.id)).replace('\n','');
+        const xml = await book.getChapterRawSync(f.id);
+        // console.log(xml);
+
+        const dom = new JSDOM(xml, { contentType: "text/xml" });
+        //https://github.com/jsdom/jsdom/issues/798#issuecomment-434066640
+        1;
+        const nodes = textNodesUnder(dom.window.document, dom.window);
+        // 有些书文字全部在span ,有些不是，所以直接拿所有text节点。后续优化code pre等标签内容
+        // console.log(nodes);
+
+        for (const node of nodes) {
+          const textContent = node.textContent;
+          if (!textContent.trim()) continue; //trim去除所有空白，行终止符字符，为‘’ 不翻译
+          let translated;
+
+          try {
+            await resolveAfter(Math.random() * 100 + 100);
+            translated = await converter(node.textContent);
+            console.log("", translated);
+          } catch (error) {
+            console.log(error);
+            return;
+          }
+
+          node.textContent = translated;
+        }
+
+        // const spans = dom.window.document.querySelectorAll("span");
+
+        // for (const span of spans) {
+        //   // console.log(span.textContent);
+        //   let translated;
+        //   try {
+        //     await resolveAfter(Math.random() * 100 + 100);
+        //     translated = await converter(span.textContent);
+        //     console.log("", translated);
+        //   } catch (error) {
+        //     console.log(error);
+        //     return;
+        //   }
+
+        //   span.textContent = translated;
+        // }
+
+        const string = dom.serialize();
+        // mkdirp.sync(dirname(f.href))
+        // fs.writeFileSync(f.href,string )
+        zip.file(f.href, string);
+        // console.log(string);
+      } catch (error) {
+        console.log(error);
+      }
+    }
+
+    const data = await zip.generateAsync({
+      base64: false,
+      compression: "DEFLATE",
+      type: "nodebuffer",
+    });
+    fs.writeFileSync(Math.random()*1000+"中文版1.epub", data, "binary");
+  } catch (error) {
     console.log(error);
-}
+  }
 })();
-
-
-

@@ -28,3 +28,10 @@ https://github.com/jsdom/jsdom/issues/1839
 
 Fixed!
 https://github.com/jsdom/jsdom/issues/798#issuecomment-434066640
+
+
+
+翻译流程：
+- 读取目录文件
+- toc文件翻译
+- 内容页翻译

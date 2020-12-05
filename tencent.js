@@ -1,11 +1,11 @@
+import dotenv from "dotenv";
 import tencentcloud from "tencentcloud-sdk-nodejs";
-
+dotenv.config();
 const TmtClient = tencentcloud.tmt.v20180321.Client;
-
 const clientConfig = {
   credential: {
-    secretId: "AKIDOcbXDeHmZNDr9eD7y64pMn1RvhMqn7k8",
-    secretKey: "JOIyOccPxFJQkqhIL9h2B5k9LL6brvmw",
+    secretId: process.env.TENCENT_SECRETID,
+    secretKey: process.env.TENCENT_SECRETKEY,
   },
   region: "ap-shanghai-fsi",
   profile: {
@@ -48,7 +48,7 @@ export async function converter(SourceText, { Source = "auto", Target = "zh",  P
       }
     }
   }
-  // (async () => {
-  //   const text = await converter("Hello world");
-  //   console.log(text);
-  // })();
+  (async () => {
+    const text = await converter("Hello world");
+    console.log(text);
+  })();
