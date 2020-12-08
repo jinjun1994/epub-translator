@@ -1,31 +1,21 @@
-import { createEpub, readEpub } from "./epub-io.js";
-import path from "path";
+
 import fs from "fs";
 import jszip from "jszip";
 import {  performance } from 'perf_hooks';
 
 import EPub from "epub";
-import xpath from "xpath";
-import xmldom from "xmldom";
+
 import _ from "lodash";
 import jsdom from "jsdom";
 
 const { JSDOM } = jsdom;
-const { DOMParser, XMLSerializer } = xmldom;
-const { dirname } = path;
-import { converter } from "./tencent.js";
-import { fstat } from "fs";
+
 import { textNodesUnder } from "./src/utils.js";
 
-const EPUB_TO_BE_CREATED_URL = normalizeRelativePath(
-  "./src/test/test_epub_js.epub"
-);
 
 import {Lines} from "./src/line.js";
 
-function normalizeRelativePath(relativePath) {
-  return path.normalize(`${path.resolve()}/${relativePath}`);
-}
+
 EPub.prototype.getChapterRawSync = async function (id) {
   return new Promise((resolve, reject) => {
     if (this.manifest[id]) {
@@ -69,17 +59,11 @@ async function readEpubSync(path) {
     epub.parse();
   });
 }
-function resolveAfter(number) {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve();
-    }, number);
-  });
-}
+
 (async () => {
   const t0 = performance.now();
+  const file = "./books/2 领导的道与术 Leadership Strategy and Tactics Field Manual by Jocko Willink.epub";
   try {
-    const file = "./Tiny Habits The Small Changes That Change Everything by BJ Fogg.epub";
     const book = await readEpubSync(file);
     const epub = fs.readFileSync(file);
     const zip = await jszip.loadAsync(epub, { base64: false });
@@ -115,10 +99,11 @@ function resolveAfter(number) {
     }
 
     try {
+
       const ncxFile = zip.filter(function (relativePath, file) {
-        return relativePath === "OPS/toc.xhtml";
+        return relativePath.includes("toc.xhtml");
       })[0];
-      console.log("翻译封面");
+      console.log("翻译目录");
       const ncx = await zip.file(ncxFile.name).async("string");
       // 生成目录文件dom翻译
       const dom = new JSDOM(ncx, { contentType: "text/xml" });
@@ -161,7 +146,7 @@ function resolveAfter(number) {
       compression: "DEFLATE",
       type: "nodebuffer",
     });
-    fs.writeFileSync(Math.random()*1000+"中文版1.epub", data, "binary");
+    fs.writeFileSync(file.replace('.epub','中文版.epub'), data, "binary");
   } catch (error) {
     console.log(error);
   }
