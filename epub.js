@@ -5,10 +5,11 @@ import jsdom from "jsdom";
 const { JSDOM } = jsdom;
 import { textNodesUnder } from "./src/utils.js";
 import { Lines } from "./src/line.js";
-
-export const translator = async (file) => {
+import { TranslateByBaiDu } from "./baidu.js";
+export const translator = async ({file,qps, appid, secret}={}) => {
   const t0 = performance.now();
   let zip
+  let translateByBaiDu
   try {
     const epub = fs.readFileSync(file);
      zip = await jszip.loadAsync(epub, { base64: false });
@@ -19,6 +20,15 @@ export const translator = async (file) => {
   } catch (error) {
     console.log('epub file error');
     console.log(error);
+  }
+
+
+  try {
+    translateByBaiDu = new TranslateByBaiDu({
+      qps, appid, secret
+    });
+  } catch (error) {
+    console.log('appid secret error');
   }
   // Mimetype file should only contain the string "application/epub+zip" and should not be compressed.
 
@@ -40,7 +50,7 @@ export const translator = async (file) => {
         const xml = await zip.file(xmlFile.name).async("string");
         const dom = new JSDOM(xml, { contentType: "text/xml" });
         const texts = textNodesUnder(dom.window.document, dom.window);
-        const lines = new Lines(texts);
+        const lines = new Lines({texts,translateByBaiDu});
         await lines.translate();
         const string = dom.serialize();
         zip.file(xmlFile.name, string);

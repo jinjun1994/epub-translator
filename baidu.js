@@ -1,13 +1,5 @@
-import dotenv from "dotenv";
 import BaiduTranslate from "node-baidu-translate";
 import { performance } from "perf_hooks";
-
-dotenv.config();
-
-const bdt = new BaiduTranslate(
-  process.env.BAIDU_TRANSLATE_APPID,
-  process.env.BAIDU_TRANSLATE_SECRET
-);
 
 // bdt.translate("apple", "zh").then((res) => {});
 function sleep(number) {
@@ -19,7 +11,8 @@ function sleep(number) {
 }
 
 export class TranslateByBaiDu {
-  constructor(qps = 1) {
+  constructor({ qps = 1, appid, secret } = {}) {
+    this.bdt = new BaiduTranslate(appid, secret);
     this.qps = qps;
     this.millisecond_gap = 1001 / qps;
     this.t0 = performance.now();
@@ -34,7 +27,7 @@ export class TranslateByBaiDu {
         await sleep(millisecond_gap - (t1 - t0));
       }
       this.t0 = performance.now();
-      const result = await bdt.translate(text, to, from);
+      const result = await this.bdt.translate(text, to, from);
       this.t0 = performance.now();
       return result;
     } catch (error) {
